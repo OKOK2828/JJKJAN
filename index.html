@@ -1,0 +1,98 @@
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+<title>$ANIMEE</title>
+<link rel="icon" href="Design sans titre (16).png" type="image/x-icon">
+
+    </head>
+    <link rel="stylesheet" href="style.css">
+<body style="margin: 0;">
+<div class="magic-fixed-pixel"></div>
+
+<div class="parallax" >
+  <div id="section1" class="section" style=""></div>
+  <div id="section2" class="section"></div>
+  <div id="section3" class="section"></div>
+  <div id="section4" class="section"></div>
+  <div id="section5" class="section"></div>
+
+  <div id="group1" class="parallax__group">
+   
+    <section class="parallax__layer parallax__layer--base">
+        <nav style="z-index:9999;">
+
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="https://twitter.com/animeeSOL">Twitter</a></li>
+                <li><a href="https://t.me/SolAnimee">Telegram</a></li>
+            
+            </ul>
+            <a href="https://pump.fun/" class="btn">Buy Now</a>
+        </nav>
+
+
+        
+      <p>GokuNarutoPikachuLuffyEren $ANIMEE</p>
+      
+    </section>
+  </div>
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <div id="group2" class="parallax__group">
+    <section class="parallax__layer parallax__layer--back">
+      <p>Fair launch pump.fun</p>
+    </section>
+  </div>
+  <div id="group3" class="parallax__group">
+    <section class="parallax__layer parallax__layer--base">
+      <p>1.000.000.000 Supply</p>
+    </section>
+  </div>
+  <div id="group4" class="parallax__group">
+    <section class="parallax__layer parallax__layer--base">
+      <p>0/0 Taxes</p>
+    </section>
+  </div>
+  <div id="group5" class="parallax__group">
+    <section class="parallax__layer parallax__layer--base">
+      <p>Join the community</p>
+    </section>
+  </div>
+</div>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/scrollify/1.0.21/jquery.scrollify.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery-scrollify@1.0.21/jquery.scrollify.min.js"></script>
+<script>
+    
+    // Align parallax origin with scrollbar
+var origin = $(".parallax").css("perspective-origin");
+$(".parallax").css("perspective-origin", origin);
+$(".parallax__layer").css("transform-origin", origin);
+
+// Initialize Scrollify plugin
+  $(() =>
+    $.scrollify({
+      target: ".parallax",
+      section: ".section"
+    })
+  )
+
+
+</script>
+</html>
